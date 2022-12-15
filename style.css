@@ -8,6 +8,16 @@ a {
   padding-bottom: 100px;
 }
 
+ul {
+     font-family: "Helvetica", sans-serif;
+}
+
+li {
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 header {
     background-color: #163dec;
     float: middle;
@@ -21,9 +31,10 @@ body {
 }
 
 h1 {
+    margin-top: 250px;
+    margin-bottom: 500px;
     font-family: "Helvetica", sans-serif;
     color: #000000;
-    margin-top: 100px;
     margin-left: 25px;
     font-size: 55px;
 }
@@ -33,7 +44,9 @@ h1 {
 }
 
 .mac {
+    width: 100%;
     float: right;
+    border-left: 120px;
 }
 
 .ob {
@@ -64,14 +77,39 @@ h1 {
     font-weight: 550;
 }
 
+img.cld {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+div.background {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+
 .box {
+    width: 45%;
+    height: 300px;
     display: inline-block;
 }
 
+
 .tx1 {
+    font-family: "Helvetica", sans-serif;
+    font-size: 20px;
     text-align: left;
     display: inline-block;
-    float: left;
-    /*padding-top: 0px;*/
+    float: right;
+    margin-top: 0px;
+    margin-left: 10%;
 
 }
